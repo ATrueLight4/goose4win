@@ -2,11 +2,541 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://block.github.io/goose/blog</id>
     <title>codename goose Blog</title>
-    <updated>2025-04-14T00:00:00.000Z</updated>
+    <updated>2025-04-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://block.github.io/goose/blog"/>
     <subtitle>codename goose Blog</subtitle>
     <icon>https://block.github.io/goose/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[How One Contribution Can Spark Many Wins]]></title>
+        <id>https://block.github.io/goose/blog/2025/04/22/community-bestcodes</id>
+        <link href="https://block.github.io/goose/blog/2025/04/22/community-bestcodes"/>
+        <updated>2025-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The snowball effect of one contributor's small fixes]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="blog cover" src="https://block.github.io/goose/assets/images/bestcodes-3d6c50de10a2d84def19d515aaea0724.png" width="1206" height="633" class="img_ev3q"></p>
+<p>The only way to discover how much of an impact your contributions can make is to submit them and hope for the best. Sometimes, what feels like "just a small fix" can end up reshaping an open source project or inspiring a brand new feature. Here's how one of our top contributors turned a small build fix into important improvements for the Goose experience.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-bestcodes-discovered-goose">How BestCodes Discovered Goose<a href="https://block.github.io/goose/blog/2025/04/22/community-bestcodes#how-bestcodes-discovered-goose" class="hash-link" aria-label="Direct link to How BestCodes Discovered Goose" title="Direct link to How BestCodes Discovered Goose">​</a></h2>
+<p><a href="https://bestcodes.dev/" target="_blank" rel="noopener noreferrer">BestCodes (aka William Steele)</a> first discovered Goose during a <a href="https://www.youtube.com/watch?v=O-zJJN-TkXc&amp;ab_channel=AngieJones" target="_blank" rel="noopener noreferrer">GitHub Open Source Friday livestream</a> and decided to give it a try. At the time, Goose offered limited support for Windows/Linux (with more work in progress before any official release). Since BestCodes wasn't a Mac user, he wanted to help bring support to Linux. After lots of troubleshooting, he ended up creating <a href="https://github.com/block/goose/pull/2070" target="_blank" rel="noopener noreferrer">a Debian build fix</a> that finally let him start using Goose on Linux.</p>
+<p>Even though BestCodes wondered if such a small fix was worth sharing, it was this "small" contribution that enabled fellow community members wanting to use Goose on Linux, and gave him momentum for future PRs. His experience is proof that your contribution has a chance to help someone, and you should share it! You never know what curiosity and the open source community can make happen.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="building-momentum">Building Momentum<a href="https://block.github.io/goose/blog/2025/04/22/community-bestcodes#building-momentum" class="hash-link" aria-label="Direct link to Building Momentum" title="Direct link to Building Momentum">​</a></h2>
+<p>BestCodes has continued to make Goose better with thoughtful improvements—from <a href="https://github.com/block/goose/pull/2079" target="_blank" rel="noopener noreferrer">polishing the UI</a> and <a href="https://github.com/block/goose/pull/2079" target="_blank" rel="noopener noreferrer">refining load states</a>, to <a href="https://github.com/block/goose/pull/2279" target="_blank" rel="noopener noreferrer">fixing subtle bugs</a> that make the Goose experience smoother for everyone. You can check out <a href="https://github.com/block/goose/pulls?q=is%3Apr+is%3Aclosed+author%3AThe-Best-Codes" target="_blank" rel="noopener noreferrer">BestCodes' contributions on GitHub</a>.</p>
+<p>Thank you so much for your continued support and contributions, BestCodes! Your work brings us one step closer to a full Goose experience on Windows and Linux.</p>
+<p>To show how grateful we are for your contributions, we've granted you the exclusive ✨Top Contributor✨ badge on the Block Open Source Discord! Plus, you'll also be receiving exclusive codename goose swag. 👀🪿</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="become-a-top-contributor">Become A Top Contributor<a href="https://block.github.io/goose/blog/2025/04/22/community-bestcodes#become-a-top-contributor" class="hash-link" aria-label="Direct link to Become A Top Contributor" title="Direct link to Become A Top Contributor">​</a></h2>
+<p>Interested in contributing to goose and having your work featured? Whether it's fixing bugs, sharing ideas, or helping others, every contribution from the open source community has the chance to help someone. You can <a href="https://discord.gg/block-opensource" target="_blank" rel="noopener noreferrer">join the Block Open Source Discord</a> or <a href="https://block.github.io/goose/" target="_blank" rel="noopener noreferrer">get started using codename goose</a> today.</p>
+]]></content>
+        <author>
+            <name>Tania Chakraborty</name>
+            <uri>https://taniachakraborty.com</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MCP Is Rewriting the Rules of API Integration]]></title>
+        <id>https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration</id>
+        <link href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration"/>
+        <updated>2025-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A developer's guide to modernizing API infrastructure with AI agents and Model Context Protocol. Learn about the benefits, integration strategies, and how to address security considerations.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="blog cover" src="https://block.github.io/goose/assets/images/cover-1e2153c66f3f0c92da7bbaafd240a9b4.png" width="1920" height="1080" class="img_ev3q"></p>
+<p>As developers, we're always looking for ways to build more efficient, scalable, and intelligent applications. For years, RESTful APIs have been our go-to for connecting services. Here are some ways you can integrate AI agents and MCP into your existing API infrastructure to make it smarter, more efficient, and easier to maintain.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction-the-intelligent-evolution-of-your-apis">Introduction: The Intelligent Evolution of Your APIs<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#introduction-the-intelligent-evolution-of-your-apis" class="hash-link" aria-label="Direct link to Introduction: The Intelligent Evolution of Your APIs" title="Direct link to Introduction: The Intelligent Evolution of Your APIs">​</a></h2>
+<p>In March 2023, OpenAI announced an easier integration to ChatGPT by using properly-formatted OpenAPI specification files with meticulously-written and detailed instructions in the same file. This announcement gained a lot of attention in developer communities. The business impact was having developers and documentation writers working on one gigantic spec file together, to provide ChatGPT the necessary context to understand which API to use, and how.</p>
+<p>Skip ahead just a short while, and <a href="https://news.microsoft.com/source/features/ai/ai-agents-what-they-are-and-how-theyll-change-the-way-we-work/" target="_blank" rel="noopener noreferrer">AI agents</a> combined with the <a href="https://modelcontextprotocol.io/introduction" target="_blank" rel="noopener noreferrer">Model Context Protocol (MCP)</a> are splitting this workload where MCP could contain the context and awareness, and your API team can focus on the API itself. These aren't just incremental improvements, either; the combination of Agentic AI and MCP represent a fundamental shift in how we connect and interact with data and services.</p>
+<p>The shift to <a href="https://block.github.io/goose/blog/2025/02/17/agentic-ai-mcp/">using AI Agents and MCP</a> has the potential to be as big a change as the introduction of REST APIs was back in 2005. Imagine a world where integrations are more dynamic, context-aware, and require less manual coding. This isn't a distant future -- it's already happening. This is an opportunity for us to boost productivity, enhance app intelligence, and ultimately deliver better experiences to our users, clients, and customers.</p>
+<p>Let's use an example: imagine your team wants AI to handle dynamic pricing adjustments in your e-commerce workflow at Square. If you could gain a faster response time to market changes or inventory, you could reduce the need to build dozens or hundreds of dynamic pricing rules into your code. Your productivity as a developer goes up, and you have less code to maintain. You could write those rules in a more spoken-language way, and the AI agent can handle the rest through MCP and your APIs.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="from-static-endpoints-to-intelligent-interactions">From Static Endpoints to Intelligent Interactions<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#from-static-endpoints-to-intelligent-interactions" class="hash-link" aria-label="Direct link to From Static Endpoints to Intelligent Interactions" title="Direct link to From Static Endpoints to Intelligent Interactions">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="current-landscape-the-limitations-of-traditional-apis">Current Landscape: The Limitations of Traditional APIs<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#current-landscape-the-limitations-of-traditional-apis" class="hash-link" aria-label="Direct link to Current Landscape: The Limitations of Traditional APIs" title="Direct link to Current Landscape: The Limitations of Traditional APIs">​</a></h3>
+<p>Many of our current systems rely heavily on traditional APIs, like RESTful APIs, which are designed with static endpoints that respond to specific requests with specific results. While these APIs have served us well (and certainly aren't going away any time soon), they come with limitations:</p>
+<ul>
+<li>The static nature of RESTful APIs makes them more rigid, less adaptable to business changes, and require hard rules around versioning to provide compatibility.</li>
+<li>They often require significant manual effort to define endpoints, handle data transformations, and manage complex workflows. This can lead to slower development cycles and increased maintenance overhead.</li>
+</ul>
+<p><strong>The AI opportunity lies in leveraging intelligent agents, combined with MCP, to create more adaptive integrations.</strong> These agents can understand context, discover relevant services, and negotiate interactions in a more dynamic way than static API calls. The static APIs are still being used, but the AI agents can navigate those more easily than changing your code calling the APIs and parsing and validating responses, and handling errors.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="development-impact-boosting-productivity-enhancing-user-experiences">Development Impact: Boosting Productivity, Enhancing User Experiences<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#development-impact-boosting-productivity-enhancing-user-experiences" class="hash-link" aria-label="Direct link to Development Impact: Boosting Productivity, Enhancing User Experiences" title="Direct link to Development Impact: Boosting Productivity, Enhancing User Experiences">​</a></h3>
+<p>This dual integration of AI agents and MCP can have a significant positive impact on your development processes and the applications you build:</p>
+<ul>
+<li><strong>Developer Productivity:</strong> By automating many integration tasks and reducing the need for extensive manual coding, AI agents free up our time to focus on core application logic and innovation. (And testing. And security. And documentation. And...)</li>
+<li><strong>Customer Satisfaction:</strong> Intelligent integrations can lead to more personalized and responsive user experiences. Agents can facilitate real-time data analysis and context-aware interactions, making our applications smarter and more user-friendly.</li>
+<li><strong>Scalability:</strong> As your application grows, the complexity of managing multiple APIs can become overwhelming. <a href="https://block.github.io/goose/blog/2025/02/21/gooseteam-mcp/">Using multiple AI agents</a> can help manage this complexity by dynamically adapting to changes in the underlying services and workflows.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="business-impact-driving-efficiency-and-cost-savings">Business Impact: Driving Efficiency and Cost Savings<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#business-impact-driving-efficiency-and-cost-savings" class="hash-link" aria-label="Direct link to Business Impact: Driving Efficiency and Cost Savings" title="Direct link to Business Impact: Driving Efficiency and Cost Savings">​</a></h3>
+<p>From the business side, the integration of AI agents and MCP can lead to significant cost savings and efficiency gains. Here are some key areas where you can expect to see improvements:</p>
+<p><strong>Example ROI Calculation (Per Developer):</strong></p>
+<p>Traditional API Development:</p>
+<ul>
+<li>Average time to add feature: 2 weeks</li>
+<li>Developer cost: $150/hour</li>
+<li>Assuming 40 hours/week: 2 weeks * 40 hours/week * $150/hour = $12,000</li>
+</ul>
+<p>AI-Agent Enabled:</p>
+<ul>
+<li>Average time to add feature: 2 days</li>
+<li>Developer cost: $150/hour</li>
+<li>Assuming 8 hours/day: 2 days * 8 hours/day * $150/hour = $2,400</li>
+</ul>
+<p>Annual savings for 50 features: ( $12,000 - $2,400 ) * 50 = <strong>$480,000 per developer</strong></p>
+<p>This illustrates the potential for significant time and cost savings per developer by adopting AI agents.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="integrating-ai-and-mcp-navigating-the-landscape">Integrating AI and MCP: Navigating the Landscape<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#integrating-ai-and-mcp-navigating-the-landscape" class="hash-link" aria-label="Direct link to Integrating AI and MCP: Navigating the Landscape" title="Direct link to Integrating AI and MCP: Navigating the Landscape">​</a></h2>
+<p>Integrating AI agents, especially through a platform like MCP, requires careful consideration.</p>
+<ul>
+<li>Risk Management: MCP, while promising, is a newer technology. Your team needs to thoroughly evaluate <a href="https://block.github.io/goose/blog/2025/03/26/mcp-security/">potential security concerns</a> and understand the maturity of the platform before deep integration into critical systems.</li>
+<li>Planning for Continuity and Versioning: As with any evolving technology, you will need strategies for ensuring the continuity of integrations and managing versioning of both the AI agents and MCP itself.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="phased-approach-a-practical-integration-strategy">Phased Approach: A Practical Integration Strategy<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#phased-approach-a-practical-integration-strategy" class="hash-link" aria-label="Direct link to Phased Approach: A Practical Integration Strategy" title="Direct link to Phased Approach: A Practical Integration Strategy">​</a></h3>
+<p>A step-by-step approach can help mitigate risks, and learn effectively through feedback, as you integrate AI agents via MCP:</p>
+<p><strong>Phase 1: Assessment (Initial Exploration)</strong></p>
+<ul>
+<li>Look through your existing API usage, and identify integration possibilities</li>
+<li>Consider the ROI: start with small ideas and grow your integration efforts over time</li>
+<li>Build initial business/tech plans for adopting AI agents and MCP</li>
+</ul>
+<p><strong>Phase 2: A/B Testing and Pilot Projects</strong></p>
+<ul>
+<li>Select a low-risk, high-value service for initial AI agent integration via MCP</li>
+<li>Implement the integration, then do thorough A/B testing and comparisons against the traditional API approach</li>
+<li>Measure the results, gather benchmark/performance data, and talk to the team about what you find</li>
+</ul>
+<p><strong>Phase 3: Scale and Optimization</strong></p>
+<ul>
+<li>Take it a step at a time: based on the results, take on bigger and more complex integration ideas</li>
+<li>Continue to optimize your integration process over time</li>
+<li>Use feedback from your dev teams and end-users to refine your process</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="measuring-success-quantifying-the-impact">Measuring Success: Quantifying the Impact<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#measuring-success-quantifying-the-impact" class="hash-link" aria-label="Direct link to Measuring Success: Quantifying the Impact" title="Direct link to Measuring Success: Quantifying the Impact">​</a></h2>
+<p>For the business readers: to understand the benefits of integrating AI agents via MCP, here are some key performance indicators (KPIs) you can track:</p>
+<ul>
+<li>Development Velocity</li>
+<li>Error Rates</li>
+<li>Customer Satisfaction</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="build-your-case-study-and-share-your-learnings">Build Your Case Study and Share Your Learnings<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#build-your-case-study-and-share-your-learnings" class="hash-link" aria-label="Direct link to Build Your Case Study and Share Your Learnings" title="Direct link to Build Your Case Study and Share Your Learnings">​</a></h3>
+<p>Documenting your team's  journey and sharing your experiences is valuable for both your team and the wider developer community. Here are a few things you should share to help demonstrate the impact of your projects:</p>
+<ul>
+<li><strong>Before and After Metrics</strong>: what kind of improvements did you see in development time, error rates after integrating AI agents and MCP?</li>
+<li><strong>Team Feedback</strong>: there's going to be a learning curve here, similar to what we all experienced when integrating APIs; gather feedback about how the integration workflows are going and what could be improved</li>
+<li><strong>Customer/End User Impact</strong>: highlight any positive changes in user engagement, satisfaction, or other user/customer metrics</li>
+<li><strong>Lessons Learned</strong>: perhaps the most important; what worked well, what didn't, how are you changing the process for the next phase of integration?</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="where-do-we-go-from-here">Where do we go from here?<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#where-do-we-go-from-here" class="hash-link" aria-label="Direct link to Where do we go from here?" title="Direct link to Where do we go from here?">​</a></h2>
+<p>Understanding your existing integrations, and identifying potential areas for improvement with AI agents and MCP is your starting point. There is a lot to learn about integrating AI agents, and MCP is still a new technology.</p>
+<p>Finding those opportunities where AI can help, and outlining a plan to gradually adopt AI and MCP into your projects is the best way to start.</p>
+<p>Keep in mind, this integration landscape is still evolving. Stay open to new ideas, and adapt your approach as the technology matures. Building smarter applications is a journey, and there will be forks in the road.</p>
+<p>Additional Reading:</p>
+<ol>
+<li>What are AI Agents</li>
+</ol>
+<ul>
+<li><a href="https://news.microsoft.com/source/features/ai/ai-agents-what-they-are-and-how-theyll-change-the-way-we-work/" target="_blank" rel="noopener noreferrer">AI agents — what they are, and how they’ll change the way we work</a></li>
+<li><a href="https://www.aitrends.com/ai-agents/what-are-ai-agents-and-why-do-they-matter/" target="_blank" rel="noopener noreferrer">What are AI Agents and Why do They Matter?</a></li>
+</ul>
+<ol start="2">
+<li>
+<p><a href="https://modelcontextprotocol.io/introduction" target="_blank" rel="noopener noreferrer">An Introduction to MCP</a></p>
+</li>
+<li>
+<p><a href="https://block.github.io/goose/blog/2024/12/10/connecting-ai-agents-to-your-systems-with-mcp/">Connecting AI Agents to Your Systems with MCP</a></p>
+</li>
+<li>
+<p><a href="https://www.mckinsey.com/featured-insights/artificial-intelligence/global-ai-survey-ai-proves-its-worth-but-few-scale-impact" target="_blank" rel="noopener noreferrer">Global AI Survey: AI proves its worth, but few scale impact</a></p>
+</li>
+<li>
+<p><a href="https://www.thoughtworks.com/en-us/insights/blog/generative-ai/generative-ai-legacy-modernization-insurance-erik-doernenburg" target="_blank" rel="noopener noreferrer">Bringing generative AI to bear on legacy modernization in insurance</a></p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tldr-common-questions">TL;DR Common Questions<a href="https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration#tldr-common-questions" class="hash-link" aria-label="Direct link to TL;DR Common Questions" title="Direct link to TL;DR Common Questions">​</a></h2>
+<p>Q: <strong>How will MCP help with APIs?</strong><br>
+A: Start with <a href="https://block.github.io/goose/blog/2025/02/17/agentic-ai-mcp/#mcp-ecosystem">this post by Angie Jones</a>. MCP provides context about your API, to give AI Agents more context and awareness of the capabilities of your API endpoints and responses. This can help the Agent understand the intent of the request, and dynamically invoke (or "call") to underlying API endpoint, handle data transformation, and return a response. No more manually writing the code, response validators, error handlers, and so on!</p>
+<p>Q: <strong>What are some initial steps I can take as a developer to explore AI agents and MCP?</strong><br>
+A: Start by researching the fundamental concepts, and use other existing MCP servers. We recommend starting with <a href="https://block.github.io/goose" target="_blank" rel="noopener noreferrer">Goose</a> to integrate an existing MCP server. We have a growing <a href="https://block.github.io/docs/category/tutorials/" target="_blank" rel="noopener noreferrer">listof tutorials</a> to help you find some technologies like GitHub, PostgreSQL, Google Maps, and more. Once you feel comfortable with using MCP, you can start building your own MCP server for your own APIs.</p>
+<p>Q: <strong>What about AI and MCP security?</strong><br>
+A: AI agents can enhance security through better context awareness in interactions, but MCP is still relatively new, and requires <a href="https://block.github.io/goose/blog/2025/03/26/mcp-security/">careful security evaluations</a>. Your business and dev teams should thoroughly investigate MCP's capabilities to ensure you're building appropriate access control, and managing data privacy.</p>
+<p>Q: <strong>How long would a full migration typically take?</strong><br>
+A: It's too dynamic to give one solid answer. Integration and migrations can vary a lot, depending on the scope of your existing API usage and existing integrations. Start small, build some pilot projects to try it out, and these might only take a few days or weeks.</p>
+<p>Q: <strong>What are some potential problems devs might encounter on this AI/MCP journey?</strong><br>
+A: There's a learning curve associated with any technology. This can be compounded when you consider that MCP is still relatively new and evolving. The greater community needs strategies around testing and debugging MCP, as well as considering security and data privacy. This means that what you learn today will need to be re-evaluated even a few short months from now.</p>
+<p>Q: <strong>How mature and production-ready is MCP for enterprise-level AI integration?</strong><br>
+A: Your approach on this may vary depending on whether you're building your own MCP server, or whether you're using third-party MCP servers in your integration. Developers should evaluate all of the benefits of MCP and consider the work being done around security and data privacy. Focus on a small pilot project or non-critical system initially to assess its suitability for your specific needs. Stay updated on <a href="https://modelcontextprotocol.io/development/roadmap" target="_blank" rel="noopener noreferrer">MCP's development roadmap</a> and community feedback.</p>
+]]></content>
+        <author>
+            <name>W Ian Douglas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MCP in the Enterprise: Real World Adoption at Block]]></title>
+        <id>https://block.github.io/goose/blog/2025/04/21/mcp-in-enterprise</id>
+        <link href="https://block.github.io/goose/blog/2025/04/21/mcp-in-enterprise"/>
+        <updated>2025-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How Block is using MCP to power real world automation company-wide.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="blog cover" src="https://block.github.io/goose/assets/images/mcp-for-enterprise-5912379e407d5f5139b2636dcfc138f5.png" width="1200" height="630" class="img_ev3q"></p>
+<p>At Block, we've been exploring how to make AI agents genuinely useful in a business setting. Not just for demos or prototypes, but for real, everyday work.
+As one of the early collaborators on the <a href="https://www.anthropic.com/news/model-context-protocol" target="_blank" rel="noopener noreferrer">Model Context Protocol (MCP)</a>, we partnered with Anthropic to help shape and define the open standard that bridges AI agents with real-world tools and data.</p>
+<p>MCP lets AI agents interact with APIs, tools, and data systems through a common interface. It eliminates the guesswork by exposing deterministic tool definitions, so the agent doesn't have to guess how to call an API.
+Instead, it focuses on what we actually want... results!</p>
+<p>While others are still experimenting, we've rolled this out company-wide at Block, and with real impact.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-we-chose-mcp-at-block">Why We Chose MCP at Block<a href="https://block.github.io/goose/blog/2025/04/21/mcp-in-enterprise#why-we-chose-mcp-at-block" class="hash-link" aria-label="Direct link to Why We Chose MCP at Block" title="Direct link to Why We Chose MCP at Block">​</a></h2>
+<p>We didn't want to build one-off integrations or hardwire AI into a specific vendor ecosystem.
+Like most enterprise companies, our needs span engineering, design, security, compliance, customer support, sales, and more.
+We wanted flexibility.</p>
+<p>MCP gives us that.
+It's model-agnostic and tool-agnostic, allowing our AI agent to interact with internal APIs, open source tools, and even off-the-shelf SaaS products, all through the same protocol.</p>
+<p>It also aligns well with our <a href="https://block.github.io/goose/blog/2025/03/31/securing-mcp">security philosophy</a>.
+MCP allows us to define which models can invoke which tools, and lets us annotate tools as "read-only" or "destructive" to require user confirmation when necessary.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-we-configure-and-secure-mcp">How We Configure and Secure MCP<a href="https://block.github.io/goose/blog/2025/04/21/mcp-in-enterprise#how-we-configure-and-secure-mcp" class="hash-link" aria-label="Direct link to How We Configure and Secure MCP" title="Direct link to How We Configure and Secure MCP">​</a></h2>
+<p>We developed <a href="https://block.github.io/goose/"><strong>Goose</strong></a>, an open source, MCP-compatible AI agent. Thousands of Block employees use the tool daily.
+Available as both a CLI and desktop app, Goose comes with default access to a curated set of approved MCP servers.
+Most employees report saving 50–75% of their time on common tasks, and several have shared that work which once took days can now be completed in just a few hours.</p>
+<p>To ensure a secure and reliable experience, all MCP servers used internally are authored by our own engineers.
+This allows us to tailor each integration to our systems and use cases from development tools to compliance workflows.</p>
+<p>Some of our most widely used MCPs include:</p>
+<ul>
+<li><strong>Snowflake</strong> for querying internal data</li>
+<li><strong>GitHub and Jira</strong> for software development workflows</li>
+<li><strong>Slack and Google Drive</strong> for information gathering and task coordination</li>
+<li><strong>Internal APIs</strong> for specialized use cases like compliance checks and support triage</li>
+</ul>
+<p>In addition to tool access, Goose relies on large language models (LLMs) to interpret prompts and plan actions.
+We use Databricks as our LLM hosting platform, enabling Goose to interact with both Claude and OpenAI models through secure, enterprise-managed endpoints.
+We've established corporate agreements with model providers that include data usage protections, and we restrict Goose from being used with certain categories of sensitive data, in line with internal policies.</p>
+<p>For service-level authorization, we use OAuth to securely distribute tokens.
+Goose is pre-configured to authenticate with commonly used services, and tokens are stored securely using native system keychains.
+Currently, OAuth flows are implemented directly within locally run MCP servers, a practical but temporary solution.
+We’re actively exploring more scalable, decoupled patterns for the future.</p>
+<p>Additionally, some servers enforce LLM allowlists or restrict tool output from being shared across systems to further minimize data exposure risks.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="real-stories-with-real-impact">Real Stories with Real Impact<a href="https://block.github.io/goose/blog/2025/04/21/mcp-in-enterprise#real-stories-with-real-impact" class="hash-link" aria-label="Direct link to Real Stories with Real Impact" title="Direct link to Real Stories with Real Impact">​</a></h2>
+<p>Goose has become an everyday tool for teams across Block.
+With MCP servers acting as flexible connectors, employees are using automation in increasingly creative and practical ways to remove bottlenecks and focus on higher-value work.</p>
+<p>Our engineers are using MCP-powered tools to migrate legacy codebases, refactor and simplify complex logic, generate unit tests, streamline dependency upgrades, and speed up triage workflows.
+Goose helps developers work across unfamiliar systems, reduce repetitive coding tasks, and deliver improvements faster than traditional approaches.</p>
+<p>Data and operations teams are using Goose to query internal systems, summarize large datasets, automate reporting, and surface relevant context from multiple sources.
+In many cases, this reduces the reliance on manual data pulls or lengthy back-and-forths with specialists, making insights more accessible to everyone.</p>
+<p>Meanwhile, teams in design, product, support, and risk are utilizing Goose in ways that remove overhead from their daily work.
+Whether it's generating documentation, triaging tickets, or creating prototypes, MCP-based workflows are proving adaptable beyond engineering.</p>
+<p>This shift is helping eliminate the mechanical work that slows us down.
+As more teams experiment, they discover new ways to collaborate with Goose and reshape how things get done.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-weve-learned-so-far">What We've Learned So Far<a href="https://block.github.io/goose/blog/2025/04/21/mcp-in-enterprise#what-weve-learned-so-far" class="hash-link" aria-label="Direct link to What We've Learned So Far" title="Direct link to What We've Learned So Far">​</a></h2>
+<p>Rolling out MCP tooling company-wide required more than just technical setup. We invested in:</p>
+<ul>
+<li>Pre-installed agent access and default server bundles</li>
+<li>Weekly education sessions from our internal Developer Relations team</li>
+<li>Internal communication channels to seek help as well as share and celebrate wins</li>
+</ul>
+<p>Some of our takeaways:</p>
+<ul>
+<li>The easier we made it to start - by pre-installing Goose, bundling MCPs, and auto-configuring models - the faster adoption took off</li>
+<li>People get more creative once they see what's possible, especially when they can remix or build on what others have already done</li>
+<li>Centralized onboarding and prompt sharing saves time and helps scale best practices</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next<a href="https://block.github.io/goose/blog/2025/04/21/mcp-in-enterprise#whats-next" class="hash-link" aria-label="Direct link to What's Next" title="Direct link to What's Next">​</a></h2>
+<p>We're continuing to expand use cases outside of traditional engineering teams. MCP is helping unblock marketing, sales, and support workflows, and we're just getting started.</p>
+<p>We're also investing in:</p>
+<ul>
+<li>More secure defaults and tooling restrictions based on context</li>
+<li>Human-in-the-loop features for higher risk operations</li>
+<li>Encouraging open source MCP contributions from across the company</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="want-to-learn-more">Want to Learn More?<a href="https://block.github.io/goose/blog/2025/04/21/mcp-in-enterprise#want-to-learn-more" class="hash-link" aria-label="Direct link to Want to Learn More?" title="Direct link to Want to Learn More?">​</a></h2>
+<p>If you're curious about Goose or MCP, check out the <a href="https://block.github.io/goose/docs/quickstart">Goose documentation</a> or <a href="https://spec.modelcontextprotocol.io/" target="_blank" rel="noopener noreferrer">MCP spec</a>.
+We'd love to hear how others are approaching AI automation at scale.</p>
+<div style="display:none"><p><img decoding="async" loading="lazy" src="https://block.github.io/goose/assets/images/mcp-for-enterprise-social-bb8a18872fedc0046ef72bb413dea851.png" width="1200" height="630" class="img_ev3q"></p></div>
+]]></content>
+        <author>
+            <name>Angie Jones</name>
+            <uri>https://angiejones.tech</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11 Practical Ways I Use AI Agents Without Losing My Authenticity]]></title>
+        <id>https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai</id>
+        <link href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai"/>
+        <updated>2025-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From conference planning to prepping podcasts, here's how I use AI Agents built on MCP for everyday tasks.]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="mcp use cases" src="https://block.github.io/goose/assets/images/mcp-use-cases-758ecc959d6334783257fc9d6329e1f2.png" width="2240" height="1260" class="img_ev3q"></p>
+<p>"Stop using AI," reads yet another viral post. I get it. It's frustrating to review a colleague's auto-generated work, filled with AI's classic giveaways like generic code comments and phrases like "In today's fast-paced world..."</p>
+<p>Still, AI plays a pivotal role in my career. I don't rely on AI to do my work, but I use it to help me brainstorm and work more effciently.
+The introduction of <a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener noreferrer">Model Context Protocol (MCP)</a> has made this even easier. MCP is an open standard that gives AI tools the context they need to be useful in the real world. It enables AI agents to interact with APIs, apps, and systems in a structured way. I use <a href="https://block.github.io/goose/">Codename goose</a>, an open source AI agent built on MCP.</p>
+<p>Here are 11 real ways I use AI Agents without sacrificing authenticity, creativity, or quality:</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1--hands-free-coding">1. 🙌🏿 Hands-Free Coding<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#1--hands-free-coding" class="hash-link" aria-label="Direct link to 1. 🙌🏿 Hands-Free Coding" title="Direct link to 1. 🙌🏿 Hands-Free Coding">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>I spoke to Goose instead of typing, using my voice as input to write code or run tasks.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>I have a lot of "my brain has the idea but my hands are full" moments. Whether I'm nursing my baby or recovering from carpal tunnel, this provides an accessible way for me to capture my thoughts without typing.</p>
+<p>Sidenote: I met an AI enthusiast at a meetup who said he sometimes gets coding ideas while driving. He's exploring using his voice to vibe code on the go. Stay safe out there. Don't code and drive! 🚗⛑️</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Follow <a href="https://block.github.io/goose/docs/tutorials/speech-mcp">this tutorial</a></li>
+<li>Enable the <a href="https://github.com/Kvadratni/speech-mcp" target="_blank" rel="noopener noreferrer"><code>Speech</code></a> and <a href="https://block.github.io/goose/extensions/detail?id=developer"><code>Developer</code></a> extensions</li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>I'd like to speak instead of typing.</p>
+</blockquote>
+</li>
+</ol>
+<iframe class="aspect-ratio" src="https://www.youtube.com/embed/rurAp_WzOiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2--prepping-podcast-agendas">2. 🎤 Prepping Podcast Agendas<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#2--prepping-podcast-agendas" class="hash-link" aria-label="Direct link to 2. 🎤 Prepping Podcast Agendas" title="Direct link to 2. 🎤 Prepping Podcast Agendas">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-1">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case-1" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>I gave Goose a YouTube video of a guest's conference talk. Then, I prompted Goose to create a transcript and generate thoughtful interview questions.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful-1">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful-1" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>I want guests to feel like I actually know their work, even if I don't have hours to prep. This lets me ask smarter questions and run a better show.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it-1">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it-1" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Follow <a href="https://block.github.io/goose/docs/tutorials/youtube-transcript">this tutorial</a></li>
+<li>Enable the <a href="https://github.com/jkawamoto/mcp-youtube-transcript" target="_blank" rel="noopener noreferrer"><code>YouTube Transcript</code></a> and <a href="https://block.github.io/goose/extensions/detail?id=developer"><code>Developer</code></a> extensions</li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>Generate a transcript for this video <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=dQw4w9WgXcQ</a>, then create relevant interview questions based on the content</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3--resize-images">3. 🖼 Resize Images<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#3--resize-images" class="hash-link" aria-label="Direct link to 3. 🖼 Resize Images" title="Direct link to 3. 🖼 Resize Images">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-2">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case-2" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>Speaker management platforms often have different image requirements for headshots. I used to spend an embarrassingly amount of time trying to resize my photo without ruining the aspect ratio. Now, I just ask Goose to do it.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful-2">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful-2" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>It saves me from wrestling with random online tools or bloated design apps. I get a clean, correctly sized image in seconds, and it looks exactly how I want it to.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it-2">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it-2" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Enable the <a href="https://block.github.io/goose/extensions/detail?id=developer"><code>Developer</code></a> extension</li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>Resize this image (~/Downloads/image.png) to 1000x1000 pixels. Maintain the aspect ratio and image quality.</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4--resume-review-against-job-listings">4. 📝 Resume Review Against Job Listings<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#4--resume-review-against-job-listings" class="hash-link" aria-label="Direct link to 4. 📝 Resume Review Against Job Listings" title="Direct link to 4. 📝 Resume Review Against Job Listings">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-3">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case-3" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>I've used Goose to compare my current resume to job listings I came across.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful-3">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful-3" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>I'm not currently looking for a job, but I like to stay prepared. My strategy involves keeping my resume current and competitive. I do this by comparing my current resume to job listings, but I don't have to do this manually anymore. Instead, Goose can quickly point out my strengths and weaknesses for specific job listings. This approach could help hiring managers review resumes faster as well.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it-3">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it-3" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Follow <a href="https://block.github.io/goose/docs/tutorials/pdf-mcp">this tutorial</a></li>
+<li>Enable the <a href="https://github.com/michaelneale/mcp-read-pdf" target="_blank" rel="noopener noreferrer"><code>PDF Reader</code></a> extension</li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>Read the resume at ~/Downloads/resume.pdf and evaluate how well this candidate aligns with the following role requirements:</p>
+<ul>
+<li>5+ years of backend development experience</li>
+<li>Strong system design and distributed systems knowledge</li>
+<li>Cloud infrastructure experience (AWS preferred)</li>
+<li>Prior experience leading technical projects or teams</li>
+<li>Bonus: familiarity with LLMs or AI/ML tools</li>
+</ul>
+<p>Score each one out of 5, give supporting evidence, and summarize with a final fit rating.</p>
+</blockquote>
+</li>
+</ol>
+<iframe class="aspect-ratio" src="https://www.youtube.com/embed/EJf2_iZfaWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5--understanding-idioms">5. 🧠 Understanding Idioms<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#5--understanding-idioms" class="hash-link" aria-label="Direct link to 5. 🧠 Understanding Idioms" title="Direct link to 5. 🧠 Understanding Idioms">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-4">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case-4" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>I've asked Goose to explain idioms or references that I didn't understand.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful-4">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful-4" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>Because I wasn't born in America and I'm neurodivergent, I sometimes take idioms literally or misinterpret them. Instead of risking embarrassment at work, I quietly ask Goose to translate.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it-4">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it-4" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Enable the <a href="https://block.github.io/goose/extensions/detail?id=developer"><code>Developer</code></a> extension</li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>What does this phrase mean: "Who does Vegas have as the favorite?"</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6--querying-a-relational-database">6. 📊 Querying a Relational Database<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#6--querying-a-relational-database" class="hash-link" aria-label="Direct link to 6. 📊 Querying a Relational Database" title="Direct link to 6. 📊 Querying a Relational Database">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-5">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case-5" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>I asked Goose for insights about my data using natural language, and it wrote a Common Table Expression for me.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful-5">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful-5" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>SQL can get complex with joins, stored procedures, and subqueries. Goose helps me move faster and avoid errors by handling the query logic for me.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it-5">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it-5" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Follow <a href="https://block.github.io/goose/docs/tutorials/postgres-mcp">this tutorial</a></li>
+<li>Enable the <a href="https://github.com/modelcontextprotocol/servers/tree/HEAD/src/postgres" target="_blank" rel="noopener noreferrer"><code>PostgreSQL</code></a> and <a href="https://block.github.io/goose/extensions/detail?id=developer"><code>Developer</code></a> extensions</li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>Find my top 3 blog posts by average weekly views over the past 90 days. Include title, URL, average weekly views, and whether they were promoted on social.</p>
+</blockquote>
+</li>
+</ol>
+<iframe class="aspect-ratio" src="https://www.youtube.com/embed/PZlYQ5IthYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7--planning-my-conference-speaking-strategy">7. 🗓 Planning My Conference Speaking Strategy<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#7--planning-my-conference-speaking-strategy" class="hash-link" aria-label="Direct link to 7. 🗓 Planning My Conference Speaking Strategy" title="Direct link to 7. 🗓 Planning My Conference Speaking Strategy">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-6">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case-6" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>I've used Goose to analyze historical conference data so I could plan smarter for upcoming CFP deadlines.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful-6">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful-6" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>I tend to overbook myself or get anxious that I won't get accepted, so I apply to everything. Then I end up getting accepted to all of them and say yes without thinking, which leads to poor planning and rushed talks. With Goose, I can analyze patterns in CFP timelines and make more intentional choices.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it-6">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it-6" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Follow <a href="https://block.github.io/goose/docs/tutorials/agentql-mcp">this tutorial</a></li>
+<li>Enable the <a href="https://github.com/tinyfish-io/agentql-mcp" target="_blank" rel="noopener noreferrer"><code>AgentQL</code></a> extension</li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>I'm a tech conference speaker planning my 2025-2026 submissions.
+Extract for developer conferences (attendance &gt; 500) occurring between 2022-2024:</p>
+<ul>
+<li>Conference name</li>
+<li>Conference dates</li>
+<li>CFP timeline</li>
+</ul>
+<p>To identify:</p>
+<ul>
+<li>Consistent monthly patterns</li>
+<li>Whether conferences stick to same months yearly</li>
+<li>If CFP windows are consistent year-to-year</li>
+<li>Any shifts in traditional timing</li>
+</ul>
+<p>Structure results as JSON</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="8--tracking-down-a-buggy-commit">8. 🐞 Tracking Down a Buggy Commit<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#8--tracking-down-a-buggy-commit" class="hash-link" aria-label="Direct link to 8. 🐞 Tracking Down a Buggy Commit" title="Direct link to 8. 🐞 Tracking Down a Buggy Commit">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-7">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case-7" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>A feature broke, but I had made so many commits, I couldn't tell which one introduced the bug. I asked Goose to help me run <code>git bisect</code>, so we could identify the problematic code.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful-7">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful-7" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>The hardest part of debugging is often just figuring out where to look. Git bisect makes that faster, and Goose walked me through the process without needing to memorize the steps.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it-7">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it-7" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Install the <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank" rel="noopener noreferrer">Git CLI</a></li>
+<li>Enable the <a href="https://block.github.io/goose/extensions/detail?id=developer"><code>Developer</code></a> extension</li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>I don't know when I introduced a bug. Can you walk me through using git bisect to find the commit that caused it?</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="9--learning-new-technologies">9. 👩🏾‍🏫 Learning New Technologies<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#9--learning-new-technologies" class="hash-link" aria-label="Direct link to 9. 👩🏾‍🏫 Learning New Technologies" title="Direct link to 9. 👩🏾‍🏫 Learning New Technologies">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-8">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case-8" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>I like to keep up with the latest technologies. Since MCP servers are popular, I used Goose's tutorial extension to walk through building my own MCP server.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful-8">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful-8" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>In addition to generating code, AI agents can help you learn how to code. Goose includes a built-in tutorial extension designed to walk users through technical concepts in a hands-on way.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it-8">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it-8" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Follow <a href="https://block.github.io/goose/docs/tutorials/tutorial-extension">this tutorial</a></li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>I'd like to learn how to build an extension or MCP server for Goose</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="10--comparing-regulatory-documentation">10. 💼 Comparing Regulatory Documentation<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#10--comparing-regulatory-documentation" class="hash-link" aria-label="Direct link to 10. 💼 Comparing Regulatory Documentation" title="Direct link to 10. 💼 Comparing Regulatory Documentation">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-9">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case-9" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>I didn't do this myself, but I was impressed to learn that a community member used Goose to compare proposed and final versions of regulatory documents.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful-9">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful-9" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>Legal documents are often dense and repetitive. Goose can highlight what actually changed, helping users quickly spot how updates impact compliance or obligations.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it-9">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it-9" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Enable the <a href="https://block.github.io/goose/extensions/detail?id=computercontroller"><code>Computer Controller</code></a> extension</li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>Highlight the differences between these two versions of FinCEN's Investment Adviser AML regulations:</p>
+<p>Proposed version (2015): <a href="https://www.federalregister.gov/documents/2015/09/01/2015-21318" target="_blank" rel="noopener noreferrer">https://www.federalregister.gov/documents/2015/09/01/2015-21318</a></p>
+<p>Final version (2024): <a href="https://www.federalregister.gov/documents/2024/09/04/2024-19260" target="_blank" rel="noopener noreferrer">https://www.federalregister.gov/documents/2024/09/04/2024-19260</a></p>
+<p>Focus on key changes in requirements for investment advisers' AML/CFT programs and how they affect compliance obligations.</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="11--prototyping-ideas-quickly">11. 🛠 Prototyping Ideas Quickly<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#11--prototyping-ideas-quickly" class="hash-link" aria-label="Direct link to 11. 🛠 Prototyping Ideas Quickly" title="Direct link to 11. 🛠 Prototyping Ideas Quickly">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="use-case-10">Use Case<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#use-case-10" class="hash-link" aria-label="Direct link to Use Case" title="Direct link to Use Case">​</a></h3>
+<p>I used Goose to build a working prototype and see the full application live in action.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-its-useful-10">Why It's Useful<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#why-its-useful-10" class="hash-link" aria-label="Direct link to Why It's Useful" title="Direct link to Why It's Useful">​</a></h3>
+<p>It's fast, functional, and lets me validate whether an idea is worth pursuing without spending hours coding from scratch.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-try-it-10">How to Try It<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#how-to-try-it-10" class="hash-link" aria-label="Direct link to How to Try It" title="Direct link to How to Try It">​</a></h3>
+<ol>
+<li>Enable the <a href="https://block.github.io/goose/extensions/detail?id=developer"><code>Developer</code></a> extension</li>
+<li>Prompt Goose:<!-- -->
+<blockquote>
+<p>Build a JavaScript webcam app with real-time filters</p>
+</blockquote>
+</li>
+</ol>
+<p>🎥 <strong>See it live:</strong><br>
+<!-- -->Watch The Great Goose Off where we challenged Goose to create creative apps from scratch, like:</p>
+<ul>
+<li>A Goose-shaped drawing tool</li>
+<li>A purposely chaotic authentication flow</li>
+</ul>
+<p>You'll see ideas go from prompt to prototype in one session.</p>
+<iframe class="aspect-ratio" src="https://www.youtube.com/embed/OsA3qhns7dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looking-for-more-examples">Looking for more examples?<a href="https://block.github.io/goose/blog/2025/04/21/practical-use-cases-of-ai#looking-for-more-examples" class="hash-link" aria-label="Direct link to Looking for more examples?" title="Direct link to Looking for more examples?">​</a></h2>
+<p>This blog post included just a few of the ways I use Goose. If you're curious about what else it can do, check out the <a href="https://block.github.io/goose/prompt-library">Prompt Library</a> or just ask:</p>
+<p>What are 5 useful things you can help me with today?</p>
+<p>Let Goose surprise you. ✨</p>
+]]></content>
+        <author>
+            <name>Rizel Scarlett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codename Goose Goes to New York]]></title>
+        <id>https://block.github.io/goose/blog/2025/04/17/goose-goes-to-NY</id>
+        <link href="https://block.github.io/goose/blog/2025/04/17/goose-goes-to-NY"/>
+        <updated>2025-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Goose lands in NYC for its second community meetup]]></summary>
+        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="blog cover" src="https://block.github.io/goose/assets/images/cover-6c131d275bcdb4d8651a140d62e2975f.png" width="2240" height="1260" class="img_ev3q"></p>
+<p>We brought Goose to New York City and it was one for the books.</p>
+<p>Over 100 people registered, plus 87 on the waitlist, and we had a packed room full of folks who were curious, thoughtful, and ready to dive in. Some were developers already exploring Goose and MCP, others were totally new to the world of AI agents. That’s the beauty of Goose, it’s for developers <em>and</em> non-developers.</p>
+<p>The energy was there from the moment the event began - music, pizza, and authentic networking. We had lightning talks, a Goose-themed game, hands-on hacking, and yeah… a few Ebbs IPAs might’ve ended up in people’s backpacks by the end of the night.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-we-brought-goose-to-nyc">Why We Brought Goose to NYC<a href="https://block.github.io/goose/blog/2025/04/17/goose-goes-to-NY#why-we-brought-goose-to-nyc" class="hash-link" aria-label="Direct link to Why We Brought Goose to NYC" title="Direct link to Why We Brought Goose to NYC">​</a></h2>
+<p>After the Boston meetup, we wanted to keep the momentum going and test things in a new city. New York felt like the perfect place. It’s a melting pot of people and has a really strong tech scene. Our goals were simple:</p>
+<p>✅ Keep building the Goose community<br>
+<!-- -->✅ Get real feedback and ideas from the community in person<br>
+<!-- -->✅ Have some fun while learning together</p>
+<p>NYC didn’t disappoint.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="in-case-you-missed-it">In Case You Missed It<a href="https://block.github.io/goose/blog/2025/04/17/goose-goes-to-NY#in-case-you-missed-it" class="hash-link" aria-label="Direct link to In Case You Missed It" title="Direct link to In Case You Missed It">​</a></h2>
+<div class="carousel-container"><div class="swiper swiper-container-test-carousel" style="width:100%"><div class="swiper-wrapper"><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/focus4-8232c187021a690519cfa1e8f1c18014.jpg" alt="Slide 1" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/focus-4927104eb487e6b1f9480d8149e26c36.jpg" alt="Slide 2" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/focus2-4ca4bc40c7a86ec46ec566d4d1fd2001.jpg" alt="Slide 3" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/focus3-8ba8fb623d148fa5583c41c0a7a721a4.jpg" alt="Slide 4" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/focus5-afe81c949e09dc788989d1c20c3a74fe.jpg" alt="Slide 5" class="carousel-image"></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div><div class="swiper-pagination"></div></div></div>
+<p>We kicked things off with food and free time to meet people, chat, and ask questions before jumping into the talks:</p>
+<ul>
+<li><strong><a href="https://www.linkedin.com/in/erinmikail/" target="_blank" rel="noopener noreferrer">Erin Mikail</a></strong> from Galileo ran a Goose-themed game that got people laughing <em>and</em> learning about the importance of agent evaluation.</li>
+<li><strong><a href="https://www.linkedin.com/in/ebonylouis/" target="_blank" rel="noopener noreferrer">I, Ebony Louis</a></strong> gave a walkthrough of Goose and MCP, showing how quick it is to get started with any MCP server.</li>
+<li><strong><a href="https://www.linkedin.com/in/alexjhancock/" target="_blank" rel="noopener noreferrer">Alex Hancock</a></strong> went deep on MCP, and how it powers secure, extendable agent workflows.</li>
+</ul>
+<p>Then came the best part — hack time. <strong>27 people got Goose up and running live</strong> during the event, which was amazing to see. It’s always fun watching that moment when it clicks for someone, ideas start flowing, people get inspired, and they walk away ready to actually <em>use</em> Goose.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-people-said">What People Said<a href="https://block.github.io/goose/blog/2025/04/17/goose-goes-to-NY#what-people-said" class="hash-link" aria-label="Direct link to What People Said" title="Direct link to What People Said">​</a></h2>
+<div class="carousel-container"><div class="swiper swiper-container-test-carousel" style="width:100%"><div class="swiper-wrapper"><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/swag2-6ed2a0029c159d14013e366f6f945268.jpg" alt="Slide 1" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/swag1-7e7ee0095446a64f5dbcffe6b5b69460.jpg" alt="Slide 2" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/swag-8eaec6e42aea06511f6334c6e9e21ec1.jpg" alt="Slide 3" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/swag3-50d943bd7ee6e68c65ad0bed5e339f9a.jpg" alt="Slide 4" class="carousel-image"></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div><div class="swiper-pagination"></div></div></div>
+<blockquote>
+<p>“It took me less than 5 mins to get myself set up with a sample project and running the Goose CLI in GitHub Codespaces! Overall it felt great to be back in a physical venue for a hands-on event with an engaged community and a timely topic for discussion.”<br>
+<!-- -->— <em><a href="https://www.linkedin.com/in/nityan/" target="_blank" rel="noopener noreferrer">Nitya Narasimhan, Senior Cloud Advocate @ Microsoft</a></em></p>
+</blockquote>
+<blockquote>
+<p>“The live demos, open discussions, and practical exercises made it an exceptional learning experience. Feeling energized and inspired to explore how Goose and MCP can be leveraged in future data engineering projects!”<br>
+<!-- -->— <em><a href="https://www.linkedin.com/in/manireddy12/" target="_blank" rel="noopener noreferrer">Manikumarreddy Gajjela, Full Stack Developer @ Tetra Computing</a></em></p>
+</blockquote>
+<blockquote>
+<p>“Everyone seems bullish on Model Context Protocol (MCP) these days… Goose is an open-source, on-machine AI agent built to automate your tasks. The coolest part? You can even plug in your own hosted Ollama LLM with Goose!”<br>
+<!-- -->— <em><a href="https://www.linkedin.com/in/rijuldahiya/" target="_blank" rel="noopener noreferrer">Rijul Dahiya, Graduate Teaching Assistant @ NYU</a></em></p>
+</blockquote>
+<blockquote>
+<p>“Great event – great mix of introductory and technical material as well as fun, and I liked that it provided a bunch of time at the beginning and end that was unstructured.”<br>
+<!-- -->— <em><a href="https://www.linkedin.com/in/matthewhillnewyork/" target="_blank" rel="noopener noreferrer">Matthew Hill, Sr Director of AI Engineering @ Dataminr</a></em></p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="moments-we-loved-️">Moments We Loved ❤️<a href="https://block.github.io/goose/blog/2025/04/17/goose-goes-to-NY#moments-we-loved-%EF%B8%8F" class="hash-link" aria-label="Direct link to Moments We Loved ❤️" title="Direct link to Moments We Loved ❤️">​</a></h2>
+<ul>
+<li>🍕 Pizza, music, and people catching up before things even kicked off</li>
+<li>🎮 The Goose game- yes, it got competitive and oddly dark lol</li>
+<li>🧳 Folks traveled from Philly and DC just to attend</li>
+<li>📸 Having a photographer to capture candid and fun moments</li>
+<li>🧠 A bunch of thoughtful “I’m not a dev but…” questions that we <em>loved</em> hearing</li>
+</ul>
+<div class="carousel-container"><div class="swiper swiper-container-test-carousel" style="width:100%"><div class="swiper-wrapper"><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/speaker1-45d20237329fb76d724e73b6ee1f7a89.jpg" alt="Slide 1" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/speaker-bd71c5b83c6e0cd202ea8aa8af867b58.jpg" alt="Slide 2" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/fun-340fa01a11fd04982ae7e2e612bded03.jpg" alt="Slide 3" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/fun1-b0d7060f8629eec662b2c9f5a22dd7d0.jpg" alt="Slide 4" class="carousel-image"></div><div class="swiper-slide"><img src="https://block.github.io/goose/assets/images/focus2-4ca4bc40c7a86ec46ec566d4d1fd2001.jpg" alt="Slide 5" class="carousel-image"></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div><div class="swiper-pagination"></div></div></div>
+<p>At the end, people were asking when the next one is and yes, we may have let it slip early…</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="up-next-goose-flies-south-">Up Next: Goose Flies South 🛫<a href="https://block.github.io/goose/blog/2025/04/17/goose-goes-to-NY#up-next-goose-flies-south-" class="hash-link" aria-label="Direct link to Up Next: Goose Flies South 🛫" title="Direct link to Up Next: Goose Flies South 🛫">​</a></h2>
+<p>Our next Goose Meetup is already locked in!</p>
+<p>👉 <strong>Atlanta – Wednesday, April 30</strong><br>
+<!-- -->🕕 <strong>6:00 PM – 8:30 PM ET</strong><br>
+<!-- -->📍 <a href="https://lu.ma/x9ccqruq" target="_blank" rel="noopener noreferrer">RSVP here</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="big-thanks-">Big Thanks 🙌<a href="https://block.github.io/goose/blog/2025/04/17/goose-goes-to-NY#big-thanks-" class="hash-link" aria-label="Direct link to Big Thanks 🙌" title="Direct link to Big Thanks 🙌">​</a></h2>
+<p>Huge shoutout to <strong><a href="https://www.linkedin.com/in/taniachakraborty/" target="_blank" rel="noopener noreferrer">Tania Chakraborty</a></strong> and <strong><a href="https://www.linkedin.com/in/anthonygiuliano1/" target="_blank" rel="noopener noreferrer">Anthony Giuliano</a></strong> for being there, and to everyone who came through, asked questions, helped out, and made it a night to remember.</p>
+<p>The community truly made this one special, people stayed after to chat, helped clean up without being asked, and brought such a good energy into the room. We couldn’t have asked for a better crowd.</p>
+<p>We’ll see you in Atlanta 👀</p>
+]]></content>
+        <author>
+            <name>Ebony Louis</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How ATrueLight4 Helped Goose Navigate Windows]]></title>
         <id>https://block.github.io/goose/blog/2025/04/14/community-atruelight4</id>
@@ -27,6 +557,7 @@
 ]]></content>
         <author>
             <name>Tania Chakraborty</name>
+            <uri>https://taniachakraborty.com</uri>
         </author>
     </entry>
     <entry>
@@ -368,6 +899,7 @@ The suitcase is already packed with tools, built-in and custom extensions (MCP s
 ]]></content>
         <author>
             <name>Tania Chakraborty</name>
+            <uri>https://taniachakraborty.com</uri>
         </author>
     </entry>
     <entry>
@@ -938,6 +1470,7 @@ If you’d like to try out the toolshim, check out our <a href="https://block.gi
 ]]></content>
         <author>
             <name>Tania Chakraborty</name>
+            <uri>https://taniachakraborty.com</uri>
         </author>
     </entry>
     <entry>
@@ -1110,192 +1643,7 @@ If you’d like to try out the toolshim, check out our <a href="https://block.gi
 ]]></content>
         <author>
             <name>Tania Chakraborty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI, But Make It Local With Goose and Ollama]]></title>
-        <id>https://block.github.io/goose/blog/2025/03/14/goose-ollama</id>
-        <link href="https://block.github.io/goose/blog/2025/03/14/goose-ollama"/>
-        <updated>2025-03-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Integrate Goose with Ollama for a fully local experience.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="blog cover" src="https://block.github.io/goose/assets/images/gooseollama-fbb2cb67117c81eaa189a6b6174e6c6c.png" width="1206" height="633" class="img_ev3q"></p>
-<p>On the <a href="https://youtube.com/playlist?list=PLyMFt_U2IX4uFFhd_2TD9-tlJkgHMMb6F&amp;feature=shared" target="_blank" rel="noopener noreferrer">Goosing Around</a> stream series, host <a href="https://www.linkedin.com/in/rizel-bobb-semple/" target="_blank" rel="noopener noreferrer">Rizel Scarlett</a> <a href="https://youtube.com/watch?v=WG10r2N0IwM?feature=share" target="_blank" rel="noopener noreferrer">demonstrated how to use Goose locally with Ollama</a> for a fully local experience on your device. Her guest, <a href="https://www.linkedin.com/in/parthsareen/" target="_blank" rel="noopener noreferrer">Parth Sareen</a>, an experienced software engineer with a focus on building frameworks and systems for AI/ML, showed us the magic of structured outputs and how Goose and Ollama work together under the hood.</p>
-<p>Goose serves as an on-machine AI agent that can interact with your applications and tools through extensions, providing the framework and interface for AI-powered workflows. Ollama enables running large language models locally with a simple API, handling the optimization of models to run efficiently on consumer hardware.</p>
-<p>Together, they create a self-contained AI agent workflow that puts advanced capabilities directly in the hands of developers.</p>
-<p>Before diving deep into various capabilities, Rizel walked us through how to set yourself up for success by integrating Goose with Ollama. To follow along, you can download Goose <a href="https://block.github.io/goose/" target="_blank" rel="noopener noreferrer">here</a> and follow a step-by-step walk through in the <a href="https://block.github.io/goose/docs/getting-started/providers" target="_blank" rel="noopener noreferrer">Configure LLM Provider</a> guide.</p>
-<p>If you have any questions or get stuck, feel free to chat with us on <a href="https://discord.gg/block-opensource" target="_blank" rel="noopener noreferrer">Discord</a> or post an issue/discussion on <a href="https://github.com/block/goose/" target="_blank" rel="noopener noreferrer">GitHub</a>. Thanks for reading!</p>
-<h1>Why Go Local?</h1>
-<p>Using cloud-based LLMs and providers make it so you don't need substantial computing resources, so why go local? Here's some benefits you may want to consider:</p>
-<ul>
-<li><strong>True data privacy</strong> since your conversations never leave your device. You have complete control over sensitive information. As Parth emphasized during the discussion, "Your data stays with you, period."</li>
-<li><strong>Offline capability</strong> transforms when and where you can use AI. "I use Ollama all the time on planes—it's a lot of fun!" Parth shared, highlighting how local models free you from the constraints of internet connectivity.</li>
-<li><strong>Direct control over model behavior</strong> means you can fine-tune parameters without subscription fees or API limits. Open source models allow you to get a closer look at what's happening behind the scenes.</li>
-</ul>
-<p>Personal use cases like development assistance, personal knowledge management, education, and content management are but some examples that can benefit from working locally and offline. You can keep research and sensitive data private, and utilize Goose when you have limited connectivity.</p>
-<h1>Can My Machine Handle This?</h1>
-<p>This question came up repeatedly, and the answer is more encouraging than you think. As Parth pointed out, "You don't need to run the largest models to get excellent results." The requirements you'll want to look out for on your device boils down to this:</p>
-<ul>
-<li><strong>RAM is key</strong>: 32GB is a solid baseline for larger models and outputs.</li>
-<li><strong>For MacBooks, RAM is your primary concern</strong> given the unified memory architecture.</li>
-<li><strong>For Windows/Linux, GPU memory is more important</strong> for acceleration</li>
-</ul>
-<p>Use cases can start with smaller, more efficient models that run on modest hardware. Models optimized for efficiency can deliver impressive performance even on standard laptops! Just start with a smaller model to test your workflow, then scale up as you need. This way you can figure out if you need the beefy hardware or not.</p>
-<h1>The Magic of Structured Outputs</h1>
-<p>Ollama supports <a href="https://ollama.com/blog/structured-outputs" target="_blank" rel="noopener noreferrer">structured outputs</a>, making it possible to constrain a model’s output to a specific format—essentially teaching models to respond in specific formats like JSON. Parth explained the concept with an elegant analogy: "It's like teaching someone math operations. You show them how to add, subtract, multiply, and then they can solve different problems following those patterns."</p>
-<p>Parth showed us how these structured outputs can dramatically improve reliability. By constraining the model to respond within specific parameters, you get more consistent, predictable results. This structured approach ensures the model's response can be reliably parsed and integrated into applications—all while running locally on your device.</p>
-<p>Here's an example of how to structure an output from the livestream:</p>
-<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">// Example of image analysis with structured output</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"scene"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"sunset over mountains"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"objects"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"type"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"sun"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"attributes"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"orange"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"setting"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"partially visible"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"confidence"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0.95</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"type"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"mountains"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"attributes"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"silhouetted"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"range"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"distant"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"confidence"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0.92</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"type"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"sky"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"attributes"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token string" style="color:#e3116c">"gradient"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"orange to purple"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"clear"</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      </span><span class="token property" style="color:#36acaa">"confidence"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">0.98</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"mood"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"peaceful"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"lighting"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"golden hour"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"composition"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"rule of thirds"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>As Parth walked through these examples, he shared key practices to ensure you get the most out of local LLMs:</p>
-<ol>
-<li><strong>For precision tasks, lower the temperature</strong>. Setting it to 0 makes responses more deterministic and factual.</li>
-<li><strong>Use structured outputs whenever possible</strong>, be explicit about the format you want in your prompts.</li>
-<li><strong>Be mindful of context windows</strong>, local models have limits on how much information they can process at once.</li>
-<li><strong>Experiment with different models</strong>! Each has strengths and weaknesses you'll want to explore for your needs.</li>
-<li><strong>For larger documents, chunk them</strong> into manageable pieces, this helps a lot when you're working with larger files.</li>
-</ol>
-<h1>It's About The Freedom To Choose</h1>
-<p>While there are trade-offs in terms of raw processing power when you go local vs cloud, you don't have to choose one over the other. As Parth summarized during the livestream: "Local AI isn't about replacing cloud options—it's about having the freedom to choose the right approach for your specific needs."</p>
-<p>The benefits of owning your AI experience can be compelling for a variety of use cases. Whether you're a developer building tools, a writer working with confidential material, or simply someone who values privacy and control, I hope the Goose-Ollama integration offers a glimpse into how a local experience can benefit you, and explore a future where sophisticated AI is as personal and private as the data on your hard drive. Thanks for reading!</p>
-]]></content>
-        <author>
-            <name>Tania Chakraborty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Turn Figma Designs Into Code With Goose]]></title>
-        <id>https://block.github.io/goose/blog/2025/03/12/goose-figma-mcp</id>
-        <link href="https://block.github.io/goose/blog/2025/03/12/goose-figma-mcp"/>
-        <updated>2025-03-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Give Goose the ability to turn Figma designs into code with the Figma extension.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="blog cover" src="https://block.github.io/goose/assets/images/goosefigma-e6f84a734bd56cb431bb02452331a5d5.png" width="1206" height="633" class="img_ev3q"></p>
-<p>In our previous episode of <a href="https://www.youtube.com/playlist?list=PLyMFt_U2IX4s1pMaidir5P4lSfjUK6Nzm" target="_blank" rel="noopener noreferrer">Goose Flight School</a>, our host <a href="https://www.linkedin.com/in/acekyd/" target="_blank" rel="noopener noreferrer">Adewale Abati</a> showed us how to use Goose to take a Figma design and transform it into a functional Nuxt application. In this stream he covered the entire process, from initial setup to final implementation, highlighting how Goose can help developers bridge the gap between design and development.</p>
-<p><a href="https://block.github.io/goose/docs/getting-started/using-extensions" target="_blank" rel="noopener noreferrer">Extensions</a> enhance Goose's functionality by connecting with your existing tools and workflows. They add new features, access external data resources, and integrate with other systems. Learn how multiple extensions, including Figma and Developer, worked together seamlessly to dramatically accelerate development.</p>
-<h1>Live Tutorial: Goose Builds Live</h1>
-<p>During the livestream, Adewale demonstrated step-by-step how Goose handled each development phase, from creating the basic application structure to generating responsive layouts using Tailwind CSS. Adewale also highlighted how Goose addresses potential limitations as you go, showcasing the powerful balance between the Goose's automation and developer control.</p>
-<iframe class="aspect-ratio" src="https://www.youtube.com/embed/_9t_N9zKwKM?si=r3e1MkrjS-f2AvkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-<p>Throughout the stream, Adewale shared valuable tips to prepare your design for Goose. His key recommendations include:</p>
-<ul>
-<li>start with a well-structured Figma design</li>
-<li>use Goose to make targeted improvements after the initial generation</li>
-<li>fine-tune specific elements as needed</li>
-<li>make sure you thoroughly test for functionality and responsiveness</li>
-</ul>
-<h1>Getting Started with Goose and Figma</h1>
-<p>Whether you're a designer wanting to rapidly turn concepts into working code or a developer curious about streamlining design implementation, you can download Goose with its built-in <a href="https://block.github.io/goose/docs/getting-started/installation" target="_blank" rel="noopener noreferrer">Developer extension</a> and add the <a href="https://block.github.io/goose/v1/extensions/" target="_blank" rel="noopener noreferrer">Figma extension</a>.</p>
-<p>For step-by-step instructions, check out the <a href="https://block.github.io/goose/docs/tutorials/figma-mcp" target="_blank" rel="noopener noreferrer">Figma tutorial</a>.</p>
-]]></content>
-        <author>
-            <name>Tania Chakraborty</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automating Phone Calls with Goose]]></title>
-        <id>https://block.github.io/goose/blog/2025/03/10/goose-calls-vyop</id>
-        <link href="https://block.github.io/goose/blog/2025/03/10/goose-calls-vyop"/>
-        <updated>2025-03-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Practical tips to help you use Goose more effectively and efficiently.]]></summary>
-        <content type="html"><![CDATA[<div style="display:none"><p><img decoding="async" loading="lazy" alt="blog cover" src="https://block.github.io/goose/assets/images/goose-voyp-215f3391cfbe2132542a2be63db84999.png" width="1920" height="1080" class="img_ev3q"></p></div>
-<p>In the latest episode of <a href="https://www.youtube.com/playlist?list=PLyMFt_U2IX4uMW9kpE1FENQUyIgLuUnWD" target="_blank" rel="noopener noreferrer">Wild Goose Case</a>, hosts <a href="https://www.linkedin.com/in/ebonylouis/" target="_blank" rel="noopener noreferrer">Ebony Louis</a> and <a href="https://www.linkedin.com/in/acekyd/" target="_blank" rel="noopener noreferrer">Ace Abati</a> explored a fascinating new way to extend Goose’s automation capabilities by integrating with <a href="https://voyp.app/" target="_blank" rel="noopener noreferrer">VOYP</a>, an AI-powered system that makes phone calls. Their guest, <a href="https://www.linkedin.com/in/paulotaylor/" target="_blank" rel="noopener noreferrer">Paulo Taylor</a>, a technology veteran with over 35 years of experience, walked through how developers can use Goose to trigger and manage phone-based interactions through VOYP.</p>
-<p>Goose is already known for automating tasks, but you can extend that automation beyond the screen. With the <a href="goose://extension?cmd=npx&amp;arg=-y&amp;arg=voyp-mcp&amp;id=voyp&amp;name=VOYP&amp;description=Automated%20Phone%20Calling&amp;env=VOYP_API_KEY%3DVOYP%20API%20key" target="_blank" rel="noopener noreferrer">VOYP Goose Extension</a>, you can automate phone calls to retrieve information, handle customer interactions, or even assist with accessibility needs.</p>
-<p>VOYP functions as an AI call agent, using LLMs and Text-to-Speech (TTS) technology to conduct conversations over the phone. This means you can trigger phone interactions directly from Goose sessions, enabling real-world automation beyond traditional interfaces.</p>
-<h1>How It Works</h1>
-<p>Under the hood, VOYP utilizes multiple telecom providers to optimize call costs. It supports various LLMs and TTS providers, giving users flexibility in how they configure their AI caller. The integration with Goose is made possible through the <a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener noreferrer">Model Context Protocol (MCP)</a>, which allows Goose to communicate seamlessly with VOYP and other AI-driven tools.</p>
-<h1>Live Demo: AI Calls in Action</h1>
-<p>During the livestream, Paulo demonstrated VOYP’s capabilities with a series of engaging examples. One highlight was a playful experiment where the AI made a phone call to tell a goose-themed joke.</p>
-<iframe class="aspect-ratio" src="https://www.youtube.com/embed/Cvf6xvz1RUc?si=KQ44y6ypZFrzbest" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-<p>In <a href="https://www.youtube.com/live/g_F1u6aqohk?t=1515" target="_blank" rel="noopener noreferrer">another demo</a>, Paulo had VOYP engage in a conversation with ChatGPT’s phone service about time travel, showing how fluid and adaptable the AI’s responses can be. He also walked through VOYP's real-time conversation monitoring dashboard, which provides a transparent look at how the AI processes and responds during calls.</p>
-<h1>Getting Started with Goose and VOYP</h1>
-<p>For those eager to experiment with <a href="https://github.com/paulotaylor/voyp-mcp" target="_blank" rel="noopener noreferrer">VOYP</a>, sign up on the <a href="https://voyp.app/" target="_blank" rel="noopener noreferrer">VOYP website</a> to create an account and obtain an API key. While calls require credits, new users receive 20 free credits for testing. The cost per call varies by region, with U.S.-based calls being the most affordable at approximately five credits per minute. To integrate VOYP with Goose, <a href="goose://extension?cmd=npx&amp;arg=-y&amp;arg=voyp-mcp&amp;id=voyp&amp;name=VOYP&amp;description=Automated%20Phone%20Calling&amp;env=VOYP_API_KEY%3DVOYP%20API%20key" target="_blank" rel="noopener noreferrer">install the VOYP extension</a>.</p>
-]]></content>
-        <author>
-            <name>Angie Jones</name>
-            <uri>https://angiejones.tech</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[6 Essential Tips for Working with Goose]]></title>
-        <id>https://block.github.io/goose/blog/2025/03/06/goose-tips</id>
-        <link href="https://block.github.io/goose/blog/2025/03/06/goose-tips"/>
-        <updated>2025-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Practical tips to help you use Goose more effectively and efficiently.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="goose tips" src="https://block.github.io/goose/assets/images/goose-tips-4add28cc7201737dfb468ad11980f070.png" width="1200" height="630" class="img_ev3q"></p>
-<p>Working with AI agents can sometimes feel unpredictable. After using Goose extensively for the last few months, I've compiled a few key tips that will help you get the most out of this tool. No matter your workflow, these guidelines will help you work more efficiently with Goose.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-keep-sessions-focused-and-short">1. Keep Sessions Focused and Short<a href="https://block.github.io/goose/blog/2025/03/06/goose-tips#1-keep-sessions-focused-and-short" class="hash-link" aria-label="Direct link to 1. Keep Sessions Focused and Short" title="Direct link to 1. Keep Sessions Focused and Short">​</a></h2>
-<p>One of the most common mistakes users make is trying to accomplish too much in a single session. While it might seem efficient to keep the conversation going, longer sessions can actually hinder Goose's performance.</p>
-<p>Every message adds to the context window, which is the amount of conversation history Goose can retain at any given time. This history is made up of tokens, the individual pieces of text (words or even parts of words) that Goose processes to generate responses. More tokens don’t just increase processing time, they also contribute to LLM usage costs. And once the context window fills up, older messages get pushed out, which can lead to loss of important details or unexpected behavior.</p>
-<p>Think of it like keeping too many browser tabs open. Eventually, it impacts performance. Instead, start fresh sessions for distinct tasks. Don't worry about losing context; that's exactly what the <a href="https://block.github.io/goose/docs/tutorials/memory-mcp">Memory extension</a> is for. Keeping sessions focused and concise ensures more accurate, relevant responses while also keeping your LLM costs under control.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-minimize-active-extensions">2. Minimize Active Extensions<a href="https://block.github.io/goose/blog/2025/03/06/goose-tips#2-minimize-active-extensions" class="hash-link" aria-label="Direct link to 2. Minimize Active Extensions" title="Direct link to 2. Minimize Active Extensions">​</a></h2>
-<p>When it comes to Goose extensions, less is often more. It's tempting to enable <a href="https://www.pulsemcp.com/servers" target="_blank" rel="noopener noreferrer">every available extension</a> just in case (I'm guilty of this!), but this approach can be counterproductive. Each active extension adds to the system prompt, increasing complexity and making Goose work harder to decide which tools to use.</p>
-<p>Consider this: if you're cooking in a kitchen, having every possible utensil and appliance out on the counter doesn't make you a better chef. It just creates clutter and confusion. The same principle applies here.</p>
-<p>Go ahead and install any extensions that interest you, but <a href="https://block.github.io/goose/docs/getting-started/using-extensions#enablingdisabling-extensions">keep them disabled</a> until you need them. Start with the built-in <a href="https://block.github.io/goose/docs/tutorials/developer-mcp">Developer extension</a> enabled, which is surprisingly powerful on its own, and only enable others when you need their specific capabilities. This leads to faster responses, lower token usage, and often more focused solutions.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Bonus Tip</div><div class="admonitionContent_BuS1"><p>Before starting a complex task, ask Goose about its current capabilities. A simple prompt like "Do you have tools available to work with [specific technology/service]?" can save time and prevent false starts. Goose can tell you whether it has the necessary tools for your task, and if not, suggest which extensions you might need to enable. This quick check ensures you have the right tools ready before diving in too deep.</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-teach-goose-with-goosehints-files">3. Teach Goose with .goosehints Files<a href="https://block.github.io/goose/blog/2025/03/06/goose-tips#3-teach-goose-with-goosehints-files" class="hash-link" aria-label="Direct link to 3. Teach Goose with .goosehints Files" title="Direct link to 3. Teach Goose with .goosehints Files">​</a></h2>
-<p>One of Goose's most powerful features is its ability to understand context through <a href="https://block.github.io/goose/docs/guides/using-goosehints">.goosehints</a> files, acting like a "README for AI". These hints can be set at both the project and global levels to guide Goose’s responses.</p>
-<p>At the project level, placing .goosehints files in your directory helps Goose understand your structure, conventions, and special considerations. You can even use multiple files - one at the root for overall guidance and others in specific directories for more granular instructions (e.g., frontend styling conventions).</p>
-<p>Beyond projects, global .goosehints files (<code>~/.config/goose/.goosehints</code>) apply across all sessions, making them perfect for things like:</p>
-<ul>
-<li>Personal coding style preferences</li>
-<li>Favorite tools and workflows</li>
-<li>Standard testing practices</li>
-<li>Documentation conventions</li>
-<li>Git commit message formatting</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-choose-the-right-mode-for-your-workflow">4. Choose the Right Mode for Your Workflow<a href="https://block.github.io/goose/blog/2025/03/06/goose-tips#4-choose-the-right-mode-for-your-workflow" class="hash-link" aria-label="Direct link to 4. Choose the Right Mode for Your Workflow" title="Direct link to 4. Choose the Right Mode for Your Workflow">​</a></h2>
-<p>Goose offers <a href="https://block.github.io/goose/docs/guides/goose-permissions">different modes</a> that determine how much autonomy it has when modifying files, using extensions, and performing automated actions.</p>
-<ul>
-<li>
-<p>⚡️ <strong>Auto Mode (Default):</strong> Goose can modify, create, and delete files, as well as use extensions, without requiring approval. Best for users who want seamless automation.</p>
-</li>
-<li>
-<p>✅ <strong>Approve Mode:</strong> Goose asks for confirmation before making changes. With <a href="https://block.github.io/goose/docs/guides/goose-permissions#smart-approve">Smart Approve</a> enabled, it evaluates risk levels and prompts for high-risk actions while executing safe ones automatically.</p>
-</li>
-<li>
-<p>💬 <strong>Chat Mode:</strong> Goose operates in chat-only mode, without modifying files or using extensions. Ideal for users who want AI assistance without automation.</p>
-</li>
-</ul>
-<p>If you’re new to Goose or working on a critical project, Approve Mode offers a great balance of automation and oversight. For hands-free workflows, Auto Mode keeps things moving, while Chat Mode is perfect for brainstorming and general AI assistance.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-guide-goose-with-step-by-step-execution">5. Guide Goose with Step-by-Step Execution<a href="https://block.github.io/goose/blog/2025/03/06/goose-tips#5-guide-goose-with-step-by-step-execution" class="hash-link" aria-label="Direct link to 5. Guide Goose with Step-by-Step Execution" title="Direct link to 5. Guide Goose with Step-by-Step Execution">​</a></h2>
-<p>Complex tasks are best handled in stages, and Goose excels when you allow it to break problems into manageable steps. Instead of expecting an instant solution, ask Goose to generate a step-by-step plan first. Review the plan to ensure it aligns with your goals, then let Goose execute each step in sequence.</p>
-<p>This structured approach not only improves accuracy but also gives you more control over the process. You can pause, adjust, or refine each step as needed, giving you more control while ensuring better results.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-refine-and-iterate-for-better-responses">6. Refine and Iterate for Better Responses<a href="https://block.github.io/goose/blog/2025/03/06/goose-tips#6-refine-and-iterate-for-better-responses" class="hash-link" aria-label="Direct link to 6. Refine and Iterate for Better Responses" title="Direct link to 6. Refine and Iterate for Better Responses">​</a></h2>
-<p>Goose is powerful, but like any AI, it sometimes needs a second pass to get things right. If you don’t get the response you need, try refining your prompt or asking Goose to adjust its answer.</p>
-<p>Good iteration techniques include:</p>
-<ul>
-<li>Asking Goose to explain its reasoning before taking action</li>
-<li>Requesting alternative solutions to compare different approaches</li>
-<li>Asking for a step-by-step breakdown of its thought process</li>
-<li>Rewording prompts to add more detail or constraints</li>
-</ul>
-<p>For example, instead of asking, "Help me debug this error," try, "I’m getting a NullPointerException in my Java method. Here’s the stack trace. What could be causing it?" A small tweak in how you ask can dramatically improve the quality of the response.</p>
-<hr>
-<p>By following these tips, you'll be able to work more effectively with Goose, getting better results while using fewer resources. Remember, the goal is to solve problems efficiently and effectively. Whether you're writing code, automating tasks, or managing complex projects, these guidelines will help you make the most of what Goose has to offer.</p>
-]]></content>
-        <author>
-            <name>Angie Jones</name>
-            <uri>https://angiejones.tech</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Let A Team of AI Agents Do It For You]]></title>
-        <id>https://block.github.io/goose/blog/2025/02/21/gooseteam-mcp</id>
-        <link href="https://block.github.io/goose/blog/2025/02/21/gooseteam-mcp"/>
-        <updated>2025-02-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Community Spotlight on Cliff Hall's GooseTeam MCP server.]]></summary>
-        <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" alt="blog banner" src="https://block.github.io/goose/assets/images/gooseteam-mcp-082fa2890c313519c2a1637ca979c219.png" width="1206" height="633" class="img_ev3q"></p>
-<p>During our <a href="https://youtu.be/9tq-QUnE29U" target="_blank" rel="noopener noreferrer">previous livestream</a>, Aaron Goldsmith, Infrastructure Operations Engineer at Cash App, showed a team of Goose AI agents collaborating in real time to create a website. Our community loved it so much, Cliff Hall was inspired to iterate on that idea and create a GooseTeam MCP server.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-original-protocol">The Original Protocol<a href="https://block.github.io/goose/blog/2025/02/21/gooseteam-mcp#the-original-protocol" class="hash-link" aria-label="Direct link to The Original Protocol" title="Direct link to The Original Protocol">​</a></h2>
-<p>Aaron Goldsmith made an AI agent team consisting of multiple Goose instances a reality with his lightweight <a href="https://gist.github.com/AaronGoldsmith/114c439ae67e4f4c47cc33e829c82fac" target="_blank" rel="noopener noreferrer">Agent Communication Protocol</a>. With it, each Goose agent enters the chat, gets assigned a role (e.g. Project Coordinator, Researcher, Web Developer), and works on its part of a given task. The protocol specifies instructions guiding how the agents should talk and behave, allowing multiple Goose agents to collaborate. It also specifies that communication between the agents should be done via a Python-based websocket server with text/markdown .</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="gooseteam-mcp-server">GooseTeam MCP Server<a href="https://block.github.io/goose/blog/2025/02/21/gooseteam-mcp#gooseteam-mcp-server" class="hash-link" aria-label="Direct link to GooseTeam MCP Server" title="Direct link to GooseTeam MCP Server">​</a></h2>
-<p>Introducing <a href="https://github.com/cliffhall/GooseTeam" target="_blank" rel="noopener noreferrer">GooseTeam</a>, created by Software Architect and community member, Cliff Hall. GooseTeam takes Aaron's protocol and iterates on it into an MCP server and collaboration protocol for Goose Agents. With features like task management, message storage, and agent waiting, you can have an entire team of Goose agents work together on a task or project for you.</p>
-<p>A Goose agent with the Project Coordinator role will assign roles to other agents, your connected agents will send messages that can retrieved at any time, and your team of agents will connect to the same MCP server to collaborate together.</p>
-<p><img decoding="async" loading="lazy" alt="Goose Agents" src="https://block.github.io/goose/assets/images/gooseteam-agents-61bd50464e81d67f3f51ce2e3a2be223.png" width="3768" height="758" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-new-way-to-goose">A New Way to Goose<a href="https://block.github.io/goose/blog/2025/02/21/gooseteam-mcp#a-new-way-to-goose" class="hash-link" aria-label="Direct link to A New Way to Goose" title="Direct link to A New Way to Goose">​</a></h2>
-<p>Working with a team of AI agents on a task is a game changer. Instead of getting confused as to how to improve your prompt engineering on your own or work across sessions manually, tools like Cliff's GooseTeam or Aaron's Agent Communication Protocol help us make sure AI agents like Goose are doing the work for us as efficiently as possible. The possibilities feel endless!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="get-your-contribution-featured">Get Your Contribution Featured<a href="https://block.github.io/goose/blog/2025/02/21/gooseteam-mcp#get-your-contribution-featured" class="hash-link" aria-label="Direct link to Get Your Contribution Featured" title="Direct link to Get Your Contribution Featured">​</a></h2>
-<p>Hopefully this contribution inspired you as much as it inspired our community. If you have a Goose contribution or project you'd like to share with our community, join our <a href="https://discord.gg/block-opensource" target="_blank" rel="noopener noreferrer">Discord</a> and share your work in the <strong>#share-your-work</strong> channel. You may just be featured on our livestream or get a cool prize. 👀 You can also star Goose on GitHub or follow us on social media so you never miss an update from us. Until next time!</p>
-]]></content>
-        <author>
-            <name>Tania Chakraborty</name>
+            <uri>https://taniachakraborty.com</uri>
         </author>
     </entry>
 </feed>
